@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftp.gekatech.my.id
-        username: gekatechmain@gekatech.my.id
+        username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: public_html/
+        server-dir: /home/gekatech/public_html/
