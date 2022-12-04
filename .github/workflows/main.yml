@@ -17,4 +17,4 @@ jobs:
         server: ftp.gekatech.my.id
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /home/gekatech/
+        server-dir: /home/gekatech/public_html
